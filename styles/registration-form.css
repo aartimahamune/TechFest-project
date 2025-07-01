@@ -1,13 +1,13 @@
 .registration-section {
-  background: linear-gradient(to right, #ede2ff, #f7f0ff);
-  padding: 60px 20px;
+  background: linear-gradient(to right, #e2f0ff, #f0f9ff); /* light blue gradient */
+  padding: 10px 20px;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
 }
 
 .registration-title {
   font-size: 36px;
-  color: #4b2a86;
+  color: #2a5d86; /* deep blue */
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -15,7 +15,7 @@
 
 .registration-subtitle {
   font-size: 16px;
-  color: #6b6b6b;
+  color: #5a6b7a;
   margin-bottom: 40px;
 }
 
@@ -46,13 +46,13 @@
 .registration-form input:focus,
 .registration-form select:focus,
 .registration-form textarea:focus {
-  border-color: #9460d1;
+  border-color: #2a7bd1;
   outline: none;
-  box-shadow: 0 0 5px rgba(148, 96, 209, 0.4);
+  box-shadow: 0 0 5px rgba(42, 123, 209, 0.4);
 }
 
 .register-button {
-  background-color: #6b38b0;
+  background-color: #1f6bb0;
   color: white;
   padding: 12px 20px;
   font-size: 16px;
@@ -65,5 +65,5 @@
 }
 
 .register-button:hover {
-  background-color: #572f8b;
+  background-color: #184e8b;
 }
