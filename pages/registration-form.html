@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechFiesta</title>
-    <link rel="stylesheet" href="/TechFest-project/styles/registration-form.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechFiesta Registration</title>
+  <!-- ✅ Fixed CSS path (no leading slash) -->
+  <link rel="stylesheet" href="../styles/registration-form.css" />
 </head>
 <body>
-    <section class="registration-section" id="registration">
-  <h2 class="registration-title">Register for TechFiesta</h2>
-  <p class="registration-subtitle">Secure your spot by filling in your details below.</p>
+  <section class="registration-section" id="registration">
+    <h2 class="registration-title">Register for TechFiesta</h2>
+    <p class="registration-subtitle">Secure your spot by filling in your details below.</p>
 
-  <form class="registration-form">
-    <div class="form-group">
-      <input type="text" name="fullname" placeholder="Full Name" required />
-    </div>
+    <form class="registration-form">
+      <div class="form-group">
+        <input type="text" name="fullname" placeholder="Full Name" required />
+      </div>
 
-    <div class="form-group">
-      <input type="email" name="email" placeholder="Email Address" required />
-    </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Email Address" required />
+      </div>
 
-    <div class="form-group">
-      <input type="tel" name="phone" placeholder="Phone Number" required />
-    </div>
+      <div class="form-group">
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+      </div>
 
-    <div class="form-group">
-      <select name="event" required>
-        <option value="">Select Event</option>
-        <option value="hackathon">Hackathon</option>
-        <option value="quiz">Online Quiz</option>
-        <option value="coding">Web Page Design</option>
-      </select>
-    </div>
+      <div class="form-group">
+        <select name="event" required>
+          <option value="">Select Event</option>
+          <option value="hackathon">Hackathon</option>
+          <option value="quiz">Online Quiz</option>
+          <option value="coding">Web Page Design</option>
+        </select>
+      </div>
 
-    <div class="form-group">
-      <textarea name="message" rows="4" placeholder="Any comments or questions?"></textarea>
-    </div>
+      <div class="form-group">
+        <textarea name="message" rows="4" placeholder="Any comments or questions?"></textarea>
+      </div>
 
-    <button type="submit" class="register-button">Submit</button>
-  </form>
-</section>
-
-
+      <button type="submit" class="register-button">Submit</button>
+    </form>
+  </section>
 </body>
 </html>
